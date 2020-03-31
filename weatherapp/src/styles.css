@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.makeStyles-root-218 {
+  min-width: 0px !important;
+}
+
+.MuiGrid-item {
+  margin-right: 15% !important;
+}
+
+.MuiFormGroup-root {
+  margin-left: 25% !important;
+}
+
+.active {
+  border-color: blue !important;
+}
+
+.col-4 {
+  padding-right: 3px !important;
+  padding-left: 2px !important;
+}
+
+.MuiPaper-root {
+    min-width: auto !important;
+}
+
+.bar-chart {
+  margin-top: 15px;
+}
+
+.weather-info {
+  margin: 0 0 0 7%;
+}
+
+.loading {
+  margin-top: 10%;
+}

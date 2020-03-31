@@ -49,9 +49,15 @@ class WeatherInfo extends WeatherHelper {
         </div>
       );
 
+      if(!weatherData.weather.list)
+      return (
+        <div className="loading">
+          No Data to display. Please verify your internet connection
+        </div>
+      )
+
+
     const averageWeatherOftheDay =
-      weatherData.weather &&
-      weatherData.weather.list &&
       this.averageOfTheDay(weatherData.weather.list);
 
     maximumPagesCount =
